@@ -14,12 +14,12 @@ Your task is to calculate the position of the frog after 𝑘 jumps.
 
 But... One more thing. You are watching 𝑡 different frogs so you have to answer 𝑡 independent queries.
 
-Input
+## Input
 The first line of the input contains one integer 𝑡 (1≤𝑡≤1000) — the number of queries.
 
 Each of the next 𝑡 lines contain queries (one query per line).
 
 The query is described as three space-separated integers 𝑎,𝑏,𝑘 (1≤𝑎,𝑏,𝑘≤109) — the lengths of two types of jumps and the number of jumps, respectively.
 
-Output
+## Output
 Print 𝑡 integers. The 𝑖-th integer should be the answer for the 𝑖-th query.

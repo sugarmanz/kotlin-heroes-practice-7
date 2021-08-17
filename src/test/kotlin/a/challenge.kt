@@ -7,7 +7,7 @@ fun main() {
     val numTests = readLine()?.toIntOrNull() ?: throw IllegalArgumentException("cannot read num test cases")
     repeat(numTests) {
         val (a, b) = readLine()?.split(" ") ?: throw IllegalArgumentException("cannot read test case #$it")
-        println(`a + b`(a.toInt(), b.toInt()))
+        `a + b`(a.toInt(), b.toInt()).let(::println)
     }
 }
 

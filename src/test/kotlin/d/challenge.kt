@@ -15,4 +15,14 @@ private class D {
     fun `test case 1`() {
         setupTestCase("d/1", block = ::main)
     }
+
+    @Test
+    fun `test case 2`() {
+        setupTestCase("d/2", block = ::main)
+    }
+
+    @Test
+    fun `test case 3`() {
+        setupTestCase("d/3", block = ::main)
+    }
 }

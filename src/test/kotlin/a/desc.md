@@ -6,11 +6,11 @@
 
 You are given two integers 𝑎 and 𝑏. Print 𝑎+𝑏.
 
-Input
+## Input
 The first line contains an integer 𝑡 (1≤𝑡≤104) — the number of test cases in the input. Then 𝑡 test cases follow.
 
 Each test case is given as a line of two integers 𝑎 and 𝑏 (−1000≤𝑎,𝑏≤1000).
 
-Output
+## Output
 Print 𝑡 integers — the required numbers 𝑎+𝑏.
 
