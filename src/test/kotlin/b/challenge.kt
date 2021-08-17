@@ -3,7 +3,6 @@ package b
 import org.junit.jupiter.api.Test
 import setupTestCase
 import java.math.BigInteger
-import kotlin.math.abs
 
 fun main() {
     val numTests = readLine()?.toIntOrNull() ?: throw IllegalArgumentException("cannot read num test cases")
@@ -13,9 +12,7 @@ fun main() {
     }
 }
 
-private fun `frog jumping`(a: Int, b: Int, k: Int): BigInteger = (0 until k).fold(0.toBigInteger()) { acc, i ->
-    (acc + (if (abs(i) % 2 == 0) a else -b).toBigInteger())
-}
+private fun `frog jumping`(a: Int, b: Int, k: Int): BigInteger = TODO()
 
 private class B {
     @Test

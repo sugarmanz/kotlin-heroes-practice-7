@@ -11,7 +11,7 @@ fun main() {
     }
 }
 
-private fun `a + b`(a: Int, b: Int): Int = a + b
+private fun `a + b`(a: Int, b: Int): Int = TODO()
 
 private class A {
     @Test
